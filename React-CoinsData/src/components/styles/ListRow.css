@@ -1,0 +1,62 @@
+/* general row ( row of seach list ) styles + light/dark/hover specific styles :*/
+.row {
+    display: flex;
+    width: 80vw;
+    padding: 30px 10px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    align-items: center;
+    transition: all .2s ease-in-out;
+
+}
+.row:hover {
+    transform: scale(1.05);
+}
+.row-dark {
+    border-bottom-color: gray;
+    color: white;
+}
+.row-dark:hover {
+    background-color: #050f3f;
+}
+
+.row-light {
+    background-color: rgba(30, 29, 29, 0.4);
+    border-color: black;
+}
+.row-light:hover{
+    background-color: #1c1c23;
+}
+
+ /*styles of parameters the row */
+.item {
+    font-family: "Segoe UI", sans-serif;
+    align-items: center;
+}
+.item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.w4 {
+    display: flex;
+}
+
+/* common styles of coin-name and coin-title */
+.coin-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* coin title (coin column) styles */
+.coin-title {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+/* coin name (coin column) styles */
+.coin-name {
+    font-family: sans-serif;
+    font-size: 12px;
+}

@@ -1,0 +1,9 @@
+/* SearchPage Components should be aligned in a column */
+.search-page {
+    display: flex;
+    flex-flow: column;
+    font-family: poppins, sans-serif;
+
+}
+
+

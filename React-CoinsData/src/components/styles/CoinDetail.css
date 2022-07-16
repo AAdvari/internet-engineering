@@ -1,0 +1,47 @@
+/* coin detail page general styles + (light/dark) specifications */
+.coin-detail {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.coin-detail-light {
+    background-image: linear-gradient(to right,#ddd6f3   , #faaca8 );
+}
+
+.coin-detail-dark {
+    background-image: linear-gradient(to right,#141e30 , #243b55 );
+
+}
+/* detail-title styles*/
+.detail-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+/*detail description styles*/
+.detail-description {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+}
+
+/* param is one of [Rank, CurrentPrice, MarketCap] */
+.param {
+    font-size: 30px;
+}
+/* value is the corresponding value of each param */
+.value{
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* white-text for dark theme */
+.text-dark {
+    color: white;
+}
+/* black-text for light theme */
+.text-light {
+    color: black;
+}

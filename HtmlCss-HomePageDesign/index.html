@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>html-css-hw</title>
+</head>
+
+<body>
+<div class="navbar">
+    <div class="mob-static">
+        <img src="assets/sbu-logo.png" class="logo" alt="sbu-logo">
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    </div>
+    <input type="checkbox" id="checkbox_toggle" />
+    <ul class="navbar-items">
+        <li class="hover-gray item"><a href="#" >Home</a></li>
+        <li class="hover-gray item underline"><a href="#" >Contact</a></li>
+        <li class="hover-gray item"><a href="#" >Faculties</a></li>
+        <li class="item item-rect"><a href="#" >Sign In </a></li>
+    </ul>
+</div>
+<div class="drop-down"></div>
+<div class="main-body">
+
+    <div class="body-cards">
+        <div class="left-card">
+            <p style="font-weight: bolder; font-size: 26px; "> Contact Us </p>
+            <ul class="left-card-items">
+                <li>
+                    <img src="assets/location-logo.png" alt="loc">
+                    <p>Shahid Beheshti University, Shahid Shahriari Square, Evin, Tehan, Iran</p>
+                </li>
+
+                <li>
+                    <img src="assets/email-logo.png" alt="email">
+                    <p>int.education@sbu.ac.ir</p>
+                </li>
+
+                <li>
+                    <img src="assets/phone-logo.png" alt="phone">
+                    <p> (+98 21) 29902761 <br> (+98 21) 22431585 </p>
+                </li>
+            </ul>
+        </div>
+        <div class="right-card">
+            <form class="form">
+                <ul class="right-card-items">
+                    <li  class="right-card-item" >
+                        <label for="name">
+                            <input id="name" type="text" placeholder="Name">
+                        </label>
+                    </li>
+
+                    <li>
+                        <label for="phone-number">
+                            <input id="phone-number" type="text" placeholder="Phone Number">
+                        </label>
+                    </li>
+
+                    <li class="right-card-item">
+                        <label for="description">
+                            <textarea id="description" cols="15" rows="6" placeholder="Some Text"></textarea>
+                        </label>
+                    </li>
+                    <li class="right-card-item">
+                        <label for="submit">
+                            <input id="submit" type="submit">
+                        </label>
+                    </li>
+                </ul>
+            </form>
+            <img src="assets/send.png" alt="send">
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

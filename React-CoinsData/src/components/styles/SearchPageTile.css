@@ -1,0 +1,32 @@
+/* search page tile general styles + (light/dark) specific styles */
+.search-page-tile {
+    background-image: url("../../../assets/banner.jpg");
+    height: 45vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.search-page-tile-dark{
+    color: white;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+.search-page-tile-light{
+    color: #ececef;
+    text-shadow: 4px 4px 8px #0226ff;
+    backdrop-filter: invert();
+
+}
+
+/* bigger text of tile */
+.spt-header-text{
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+/* smaller text of tile */
+.spt-inf-text {
+    font-size: 13px;
+    font-family: sans-serif;
+    color:gray;
+}

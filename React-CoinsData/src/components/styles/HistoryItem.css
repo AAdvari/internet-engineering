@@ -1,0 +1,62 @@
+/* Hist Item genral styles + dark-light theme specifications */
+.hist-item {
+    flex: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    gap: 5px;
+    background-color: transparent;
+    transition-duration: 0.5s;
+
+}
+
+.hist-item-dark{
+    border-color: white;
+}
+.hist-item-light{
+    border-color: gray;
+}
+.hist-item-dark:hover{
+    box-shadow: 0 4px 8px 0 rgba(47, 105, 236, 0.4), 0 6px 20px 0 rgb(154, 159, 222);
+}
+.hist-item-light:hover{
+    box-shadow: 0 4px 8px 0 rgba(234, 30, 77, 0.4), 0 6px 20px 0 rgb(180, 150, 22);
+
+}
+
+/* hist item data styles*/
+.hist-brief {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+/* name of hist item and light-dark specifications*/
+.hist-name{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.hist-name-dark{
+    color: chartreuse;
+}
+.hist-name-light{
+    color: #1f37d7;
+}
+
+
+
+/* price styles + (light-dark versions) */
+.hist-price{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.hist-price-light{
+    color: black;
+}
+.hist-price-dark{
+    color: white;
+}

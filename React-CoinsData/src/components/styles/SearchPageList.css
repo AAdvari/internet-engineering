@@ -1,0 +1,86 @@
+/* SearchPageList general styles + (light/dark) specific styles */
+.spl {
+    min-height: 45vh;
+    display: flex;
+    flex-flow: column;
+    color: white;
+    align-items: center;
+
+}
+.spl-dark {
+    background-color: #1c1b1b;
+}
+.spl-light {
+    background-image: linear-gradient(to right,#ddd6f3   , #faaca8 );
+
+}
+
+/* SearchHeader (the text above the search box ) styles and light-dark specifications*/
+.search-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Segoe UI", serif;
+    font-size: 23px;
+}
+.search-header-dark {
+    color: white;
+}
+.search-header-light {
+    color: black;
+}
+
+.search-box input {
+    width: 80vw;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+}
+/* text color of search box should be different in each theme */
+.search-box-light input {
+    color: black;
+}
+.search-box-dark input {
+    color: white;
+}
+::placeholder {
+    color: gray;
+}
+
+
+/* styles of the header-row + dark/light specifications */
+.header-row {
+    display: flex;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.header-row-dark {
+    background-color: #FEE715FF ;
+    color: black;
+}
+.header-row-light {
+    background-color: #2F3C7E;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+
+.header-item-detail {
+    display: flex;
+    flex: 55%;
+    justify-content: space-between;
+}
+
+/* coin-parameter occupies more area */
+.w4 {
+    flex: 60%;
+}
+/* other parameters (such as price) occupy less area */
+.w2 {
+    justify-self: center;
+    flex: 20%;
+}
